@@ -1,0 +1,22 @@
+{
+  "name": "yblngr.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lhindex": "lighthouse http://localhost:5500/site/index.html --output-path=report_index.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view",
+    "lhindexmod": "lighthouse http://localhost:5500/sitemod/index.html --output-path=report_index_mod.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view",
+    "lhpage2": "lighthouse http://localhost:5500/site/page2.html --output-path=report_page2.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view",
+    "lhpage2mod": "lighthouse http://localhost:5500/sitemod/page2.html --output-path=report_page2_mod.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yblngr/yblngr.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yblngr/yblngr.github.io/issues"
+  },
+  "homepage": "https://github.com/yblngr/yblngr.github.io#readme"
+}
