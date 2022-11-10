@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<title>Formulaire de Contact | Agence La Panthère</title>
+	<meta name="description"
+		content="Vous avez un projet de création ou de refonte de site web ? N'hésitez pas à nous faire part de vos besoins : contactez notre agence en complétant notre formulaire.">
+	<link rel="icon" type="image/webp" href="img/favicon.webp">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<link rel="preload" type="image/avif" fetchpriority="high" as="image" href="img/texture-paper.avif">
+	<link rel="preload" type="image/webp" fetchpriority="high" as="image" href="img/dots-bg.webp">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+
+<body id="formulaire" class="page-container">
+	<header class="bloc bgc-white l-bloc">
+		<div class="container bloc-sm">
+			<div class="navbar row">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html" aria-label="Lien vers la page d'accueil">
+						<img src="img/agence-la-panthere-monochrome.min.svg" width="217" height="40"
+							alt="Logo de l'agence de web design 'La Panthère' - Tête de panthère vue de face">
+					</a>
+					<button type="button" id="nav-toggle" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
+						data-target=".navbar-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<nav class="collapse navbar-collapse navbar-1 special-dropdown-nav" aria-labelledby="nav-toggle">
+					<ul class="site-navigation nav navbar-nav">
+						<li>
+							<a href="index.html#services">Nos services</a>
+						</li>
+						<li>
+							<a href="index.html#metier">Notre métier</a>
+						</li>
+						<li>
+							<a href="index.html#realisations">Nos réalisations</a>
+						</li>
+						<li>
+							<a href="index.html">Accueil</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main>
+		<header class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper">
+			<div class="container bloc-lg">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="text-center hero-bloc-text tc-white">
+							Parlons web design&nbsp;!
+						</h1>
+						<p class="text-center mg-lg tc-white tight-width-whitespace">
+							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+						</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="bloc bgc-white l-bloc">
+			<div class="container bloc-lg">
+				<div class="row">
+					<div class="col-sm-6">
+						<form id="form_1" novalidate>
+							<div class="form-group">
+								<label>
+									Nom (obligatoire)
+									<input id="name" class="form-control" required>
+								</label>
+							</div>
+							<div class="form-group">
+								<label>
+									Adresse email (obligatoire)
+									<input id="email" class="form-control" type="email" required>
+								</label>
+							</div>
+							<div class="form-group">
+								<label>
+									Comment nous avez-vous connu&nbsp;? (obligatoire)
+									<input id="input_504" class="form-control" type="email" required>
+								</label>
+							</div>
+							<div class="form-group">
+								<label>
+									Brief de votre projet (Ajoutez autant de détails que nécessaire) (obligatoire)<br>
+									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								</label>
+							</div>
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+								Envoyer
+							</button>
+						</form>
+					</div>
+					<div class="col-sm-6">
+						<p>
+							contact@agencelapanthere.com<br>
+							2 place Sathonay 69001 Lyon<br>
+							Ouvert de 9h à 18h, du lundi au vendredi<br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="bloc bgc-atomic-tangerine d-bloc">
+		<div class="container bloc-sm">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-center white">
+						Agence La Panthère - Agence web basée à Lyon.<br>
+					</p>
+					<nav class="row social">
+						<div class="col-sm-3 text-center">
+							<a class="social" href="https://twitter.com/" aria-label="Lien vers Twitter">
+								<span class="fa fa-twitter icon-md"></span>
+							</a>
+						</div>
+						<div class="col-sm-3 text-center">
+							<a class="social" href="https://www.facebook.com/" aria-label="Lien vers Facebook">
+								<span class="fa fa-facebook icon-md"></span>
+							</a>
+						</div>
+						<div class="col-sm-3 text-center">
+							<a class="social" href="https://dribbble.com/" aria-label="Lien vers Dribbble">
+								<span class="fa fa-dribbble icon-md"></span>
+							</a>
+						</div>
+						<div class="col-sm-3 text-center">
+							<a class="social" href="https://www.instagram.com/" aria-label="Lien vers Instagram">
+								<span class="fa fa-instagram icon-md"></span>
+							</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<button type="button" class="bloc-button btn btn-d scrollToTop" aria-label="Retour en haut de page"
+		onclick="scrollToTarget('1')">
+		<span class="fa fa-chevron-up"></span>
+	</button>
+	<script src="js/jquery-2.1.0.min.js" defer></script>
+	<script src="js/bootstrap.min.js" defer></script>
+	<script src="js/blocs.min.js" defer></script>
+	<script src="js/jqBootstrapValidation.min.js" defer></script>
+	<script src="js/formHandler.min.js" defer></script>
+</body>
+
+</html>

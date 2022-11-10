@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lhindex": "lighthouse http://localhost:5500/site/index.html --output-path=report_index.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view",
-    "lhindexmod": "lighthouse http://localhost:5500/sitemod/index.html --output-path=report_index_mod.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view",
-    "lhpage2": "lighthouse http://localhost:5500/site/page2.html --output-path=report_page2.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view",
-    "lhpage2mod": "lighthouse http://localhost:5500/sitemod/page2.html --output-path=report_page2_mod.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view"
+    "lhi": "lighthouse http://localhost:5500/site/index.html --output-path=lhi.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view",
+    "lhim": "lighthouse http://localhost:5500/sitemod/index.html --output-path=lhim.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view",
+    "lhp": "lighthouse http://localhost:5500/site/page2.html --output-path=lhp.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view",
+    "lhpm": "lighthouse http://localhost:5500/sitemod/page2.html --output-path=lhpm.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view",
+    "lhc": "lighthouse http://localhost:5500/sitemod/contact.html --output-path=lhc.html --locale=fr --only-categories=\"accessibility,best-practices,performance,seo\" --view"
   },
   "repository": {
     "type": "git",
