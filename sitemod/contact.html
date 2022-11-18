@@ -10,8 +10,8 @@
 	<link rel="icon" type="image/webp" href="img/favicon.webp">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.min.css">
-	<link rel="preload" type="image/avif" fetchpriority="high" as="image" href="img/texture-paper.avif">
-	<link rel="preload" type="image/webp" fetchpriority="high" as="image" href="img/dots-bg.webp">
+	<link rel="preload" type="image/avif" as="image" href="img/texture-paper.avif">
+	<link rel="preload" type="image/webp" as="image" href="img/dots-bg.webp">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 </head>
 
@@ -73,28 +73,28 @@
 					<div class="col-sm-6">
 						<form id="form_1" novalidate>
 							<div class="form-group">
-								<label>
+								<label for="name">
 									Nom (obligatoire)
-									<input id="name" class="form-control" required>
 								</label>
+								<input id="name" class="form-control" required>
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="email">
 									Adresse email (obligatoire)
-									<input id="email" class="form-control" type="email" required>
 								</label>
+								<input id="email" class="form-control" type="email" required>
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="input_504">
 									Comment nous avez-vous connu&nbsp;? (obligatoire)
-									<input id="input_504" class="form-control" type="email" required>
 								</label>
+								<input id="input_504" class="form-control" type="email" required>
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="message">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire) (obligatoire)<br>
-									<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 								</label>
+								<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 								Envoyer
