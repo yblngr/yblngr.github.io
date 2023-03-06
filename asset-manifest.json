@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0a9cb68.css",
+    "main.js": "/static/js/main.31a9a6d0.js",
+    "static/media/about.webp": "/static/media/about.dfd7ec86f7b1c33064d8.webp",
+    "static/media/home.webp": "/static/media/home.65977213ce2578aeeb0e.webp",
+    "static/media/Logo.svg": "/static/media/Logo.a8f6070bf722c3f0af31c1ab7afd00c1.svg",
+    "index.html": "/index.html",
+    "static/media/Star.svg": "/static/media/Star.ee9eb5ded35b5c222097b33ffd2ecdbf.svg",
+    "static/media/Chevron.svg": "/static/media/Chevron.49e86b2e20654202e37ef579996b6d24.svg",
+    "main.e0a9cb68.css.map": "/static/css/main.e0a9cb68.css.map",
+    "main.31a9a6d0.js.map": "/static/js/main.31a9a6d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0a9cb68.css",
+    "static/js/main.31a9a6d0.js"
+  ]
+}
